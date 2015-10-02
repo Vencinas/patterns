@@ -5,7 +5,7 @@ package es.vencinas.study.pattterns.type.building.singleton;
  * accessed. If an instance already exists, a reference to the object is
  * returned.
  * <p>
- *
+ * 
  * @author Valentin Encinas
  */
 public final class SingletonLazyInitialization {
@@ -21,22 +21,22 @@ public final class SingletonLazyInitialization {
      * Return an instance of {@code SingletonLazyInitialization}. If an instance
      * does not currently exist, a new one will be created. Otherwise, a
      * reference to the instance will be returned.
-     *
+     * 
      * @return A reference to {@code SingletonLazyInitialization}
      */
     public static SingletonLazyInitialization getInstance() {
 
-	// Initialize the class if it has yet to be initialized
-	if (SingletonLazyInitialization.instance != null) {
+        // Initialize the class if it has yet to be initialized
+        if (SingletonLazyInitialization.instance != null) {
 
-	    // Use a synchronized statement to ensure that only one thread can
-	    // create an instance of SingletonLazyInitialization
-	    synchronized (SingletonLazyInitialization.class) {
-		SingletonLazyInitialization.instance = new SingletonLazyInitialization();
-	    }
-	}
+            // Use a synchronized statement to ensure that only one thread can
+            // create an instance of SingletonLazyInitialization
+            synchronized (SingletonLazyInitialization.class) {
+                SingletonLazyInitialization.instance = new SingletonLazyInitialization();
+            }
+        }
 
-	return SingletonLazyInitialization.instance;
+        return SingletonLazyInitialization.instance;
     }
 
     /**
@@ -44,13 +44,5 @@ public final class SingletonLazyInitialization {
      * {@code SingletonLazyInitialization} cannot be called by other classes.
      */
     private SingletonLazyInitialization() {
-    }
-
-    /**
-     * A {@code private} clone function is not supported
-     */
-    @Override
-    public Object clone() throws CloneNotSupportedException {
-	throw new CloneNotSupportedException();
     }
 }

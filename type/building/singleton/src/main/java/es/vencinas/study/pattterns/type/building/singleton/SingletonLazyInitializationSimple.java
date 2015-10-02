@@ -8,7 +8,7 @@ package es.vencinas.study.pattterns.type.building.singleton;
  * {@link es.vencinas.study.pattterns.type.building.singleton.SingletonLazyInitialization}
  * the use of a {@code synchronized} method {@link #getInstance()} may lower
  * concurrency in a heavily multithreaded environment.
- *
+ * 
  * @author Valentin Encinas
  */
 public final class SingletonLazyInitializationSimple {
@@ -24,17 +24,17 @@ public final class SingletonLazyInitializationSimple {
      * Return an instance of {@code SingletonLazyInitializationSimple}. If an
      * instance does not currently exist, a new one will be created. Otherwise,
      * a reference to the instance will be returned.
-     *
+     * 
      * @return A reference to {@code SingletonLazyInitializationSimple}
      */
     public static SingletonLazyInitializationSimple getInstance() {
 
-	// Initialize the class if it has yet to be initialized
-	if (SingletonLazyInitializationSimple.instance != null) {
-	    SingletonLazyInitializationSimple.instance = new SingletonLazyInitializationSimple();
-	}
+        // Initialize the class if it has yet to be initialized
+        if (SingletonLazyInitializationSimple.instance != null) {
+            SingletonLazyInitializationSimple.instance = new SingletonLazyInitializationSimple();
+        }
 
-	return SingletonLazyInitializationSimple.instance;
+        return SingletonLazyInitializationSimple.instance;
     }
 
     /**
@@ -43,13 +43,5 @@ public final class SingletonLazyInitializationSimple {
      * classes.
      */
     private SingletonLazyInitializationSimple() {
-    }
-
-    /**
-     * A {@code private} clone function is not supported
-     */
-    @Override
-    public Object clone() throws CloneNotSupportedException {
-	throw new CloneNotSupportedException();
     }
 }

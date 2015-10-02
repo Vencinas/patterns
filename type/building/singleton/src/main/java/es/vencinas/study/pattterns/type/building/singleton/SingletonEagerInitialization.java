@@ -8,9 +8,9 @@ package es.vencinas.study.pattterns.type.building.singleton;
  * Only use this implementation if the cost of creating the INSTANCE is not too
  * large in terms of time/resources.
  * <p>
- *
- * @version 	1.0.0 - 01 Oct 2016
- * @author 	Valentin Encinas
+ * 
+ * @version 1.0.0 - 01 Oct 2016
+ * @author Valentin Encinas
  */
 public final class SingletonEagerInitialization {
 
@@ -21,11 +21,11 @@ public final class SingletonEagerInitialization {
 
     /**
      * Return an INSTANCE of {@code SingletonEagerInitialization}.
-     *
+     * 
      * @return A reference to {@code SingletonEagerInitialization}
      */
     public static SingletonEagerInitialization getInstance() {
-	return SingletonEagerInitialization.INSTANCE;
+        return SingletonEagerInitialization.INSTANCE;
     }
 
     /**
@@ -35,11 +35,4 @@ public final class SingletonEagerInitialization {
     private SingletonEagerInitialization() {
     }
 
-    /**
-     * A {@code private} clone function is not supported
-     */
-    @Override
-    public Object clone() throws CloneNotSupportedException {
-	throw new CloneNotSupportedException();
-    }
 }
