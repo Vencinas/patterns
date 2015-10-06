@@ -1,14 +1,21 @@
-<?xml version="1.0"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <parent>
-    <groupId>es.vencinas.study.patterns</groupId>
-    <artifactId>type</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-  </parent>
-  <groupId>es.vencinas.study.patterns.type</groupId>
-  <artifactId>structural</artifactId>
-  <name>Patrones de Diseño de Creacion</name>
-  <packaging>pom</packaging>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>es.vencinas.study.patterns.type</groupId>
+    <artifactId>structural</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>es.vencinas.study.patterns</groupId>
+        <artifactId>type</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+    </modules>
+    <name>Patrones estructurales</name>
+    <description>Son los patrones de diseño software que solucionan problemas de composición (agregación) de clases y objetos.</description>
+    <url>https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o#Patrones_estructurales</url>
 </project>

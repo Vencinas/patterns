@@ -9,12 +9,8 @@
   </parent>
   <groupId>es.vencinas.study.patterns.type.building</groupId>
   <artifactId>builder</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
   <name>builder</name>
   <url>http://maven.apache.org</url>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

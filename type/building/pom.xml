@@ -7,10 +7,6 @@
 	<artifactId>building</artifactId>
 	<packaging>pom</packaging>
 
-	<name>Patrones de Diseño de Creacion</name>
-	<description>Estudio de Patrones de Diseño de Creación</description>
-
-
 	<parent>
 		<groupId>es.vencinas.study.patterns</groupId>
 		<artifactId>type</artifactId>
@@ -25,4 +21,7 @@
 		<module>factorymethod</module>
 		<module>mvc</module>
 	</modules>
+	<name>Patrones de Diseño de Creacion</name>
+	<description>Corresponden a patrones de diseño software que solucionan problemas de creación de instancias. Nos ayudan a encapsular y abstraer dicha creación.</description>
+	<url>https://es.wikipedia.org/wiki/Patr%C3%B3n_de_dise%C3%B1o#Patrones_creacionales</url>
 </project>

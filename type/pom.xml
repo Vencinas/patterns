@@ -6,8 +6,7 @@
 	<artifactId>type</artifactId>
 	<packaging>pom</packaging>
 
-	<name>Patrones de Diseño de Creacion</name>
-	<description>Estudio de Patrones de Diseño de Creación</description>
+	<name>Tipos de Patrones de Diseño</name>
 
 	<parent>
 		<groupId>es.vencinas.study</groupId>
@@ -19,4 +18,15 @@
 		<module>building</module>
     <module>structural</module>
   </modules>
+	<description>Relación de principales patrones GoF (Gang Of Four).
+
+&lt;p&gt;&lt;b&gt;Gang of Four&lt;/b&gt; es el nombre con el que se conoce comúnmente a los autores del libro &lt;i&gt;&lt;a href=&quot;/wiki/Design_Patterns&quot; title=&quot;Design Patterns&quot;&gt;Design Patterns&lt;/a&gt;&lt;/i&gt; (&lt;a href=&quot;/wiki/Especial:FuentesDeLibros/0201633612&quot; class=&quot;internal mw-magiclink-isbn&quot;&gt;ISBN 0-201-63361-2&lt;/a&gt;), referencia en el campo del diseño orientado a objetos.&lt;/p&gt;
+&lt;p&gt;La &lt;i&gt;Banda de los cuatro&lt;/i&gt; se compone de los siguientes autores:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;/wiki/Erich_Gamma&quot; title=&quot;Erich Gamma&quot;&gt;Erich Gamma&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/w/index.php?title=Richard_Helm&amp;amp;action=edit&amp;amp;redlink=1&quot; class=&quot;new&quot; title=&quot;Richard Helm (aún no redactado)&quot;&gt;Richard Helm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;nofollow&quot; class=&quot;external text&quot; href=&quot;http://cs.illinois.edu/people/faculty/ralph-johnson&quot;&gt;Ralph Johnson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&quot;external text&quot; href=&quot;//en.wikipedia.org/wiki/John_Vlissides&quot;&gt;John Vlissides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+	<url>https://books.google.es/books?id=6oHuKQe3TjQC&amp;redir_esc=y</url>
 </project>
